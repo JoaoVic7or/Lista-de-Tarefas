@@ -12,7 +12,7 @@ const Container = styled.div`
     height: 40px; 
     box-sizing: border-box;
     border-radius: 10px;   
-    max-width: 900px;
+    width: 80%;
     margin: 5px auto;
     ${({ done }) => done && css`
         background: rgba(117, 117, 117, 0.73);
